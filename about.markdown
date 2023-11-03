@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+
+
 # Work experience
 
   * ![image](/pics/terapet.png){: style="float: right; width: 150px;"} __since 04/2021__ Senior Electronics Engineer at [Terapet SA](https://terapet.ch), Switzerland. Design and realization of a gamma-ray imaging device to improve accuracy and safety in proton therapy
@@ -24,3 +26,22 @@ permalink: /about/
 	* ITG-Förderpreis 2015 by the German Association for Electrical, Electronic and Information Technologies (VDE e.V.). Yearly award
       for outstanding dissertations.
   * __03/2009 - 10/2010__ Masters in Electrical Engineering at the Hochschule Karlsruhe, Germany. Specialized on Information and communication technology
+
+# Previous Projects
+In previous projects he worked with
+
+  * Large scale, decentralized control systems for accelerators _(like EPICS or FESA)_
+  * Industrial Programmable Logic controllers _(PLCs)_ and field-bus interfaces
+  * Accelerator __interlock systems__ for personal and machine protection
+  * Microwave __receiver front-ends__ with very low noise and very high dynamic range
+  * __RF feedback systems__ to control phase and amplitude with
+    high precision and sub-ms latency
+  * Custom-designed instruments for pulsed RF measurements (amplitude and phase)
+  * __Embedded Linux__ on Xilinx devices _(Debian, Yocto, Buildroot, Docker)_
+  * ADC and DAC interfacing to FPGAs _(LVDS, JESD204)_
+  * Low latency __signal processing in FPGAs__
+  * __Soft-CPU integration__ in FPGAs _(PicoRV32, VexRiscv)_
+  * __Embedded software development__ _(Atmega, ESP32, ARM Cortex-M4, RiscV)_
+  * Design of secure and cost-optimized IOT systems _(ESP32, MQTT, TLS)_
+  * High-throughput event processing systems for gamma-ray detectors
+  * __Certified radiation protection expert__ in Switzerland
