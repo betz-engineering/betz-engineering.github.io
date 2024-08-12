@@ -8,12 +8,13 @@ Dr. Michael Betz works as a freelance Electrical Engineer, __designing__, __prod
 Design services
 
   * Complete hardware design for a product (PCB, firmware, drivers, user-interface)
-  * Design of cost-optimized embedded devices (low power, secured communication, sensor networks)
-  * Design of FPGA-based data acquisition systems
-  * Technical support for existing products (reviewing, debugging, following up manufacturing issues)
+  * Design of cost-optimized embedded devices (battery operation, secure communication, sensor networks)
+  * Design of high performance FPGA-based data acquisition systems
+  * Technical support for existing products and Design For Manufacturing (reviewing, debugging, optimizing, following up issues)
   * Adding new features to a product based on user feedback
 
-His specialty is the realization of one-offs, functional mock-ups and prototypes, that is, taking the idea for a product and bringing it to the real-world.
+His specialty is the realization of one-offs, functional mock-ups and prototypes, taking the idea for a product and bringing it into reality.
+
 In any case, he is happy to look into any of your technical problems, big or small.
 
 He previously worked for
@@ -23,6 +24,8 @@ He previously worked for
   * Terapet SA, Nuclear Imaging devices for Proton Therapy, Switzerland
   * Turkish Accelerator Center, Ankara
 
-To get in contact with Michael, please use the mail below.
+Due to his previous projects, Michael has extensive experience in designing medical electrical devices according to the __IEC 60601__ standards.
+
+Fastest way to get in touch with Michael is to send an email to [`web@betz-engineering.ch`](mailto:web@betz-engineering.ch).
 
 ![Graphical divider](/pics/divider.png)
