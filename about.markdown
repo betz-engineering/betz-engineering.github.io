@@ -4,7 +4,7 @@ title: 📋 CV
 permalink: /about/
 ---
 
-![image](/pics/portrait_cropped.jpg){: style="float: right; width: 250px;"}
+![image](/pics/portrait_cropped.jpg){: style="width: 300px; display: block; margin-left: auto;  margin-right: auto; margin-top: 0; margin-bottom: 0; padding: 0;"}
 
 # 🔧 Work experience
 
