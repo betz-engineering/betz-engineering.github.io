@@ -1,63 +1,62 @@
 ---
 # use layout: home to enable listing of posts
-layout: page
+title: ""
+layout: page_no_title
 ---
 
-Dr. Michael Betz works as a freelance Electrical Engineer, __designing__, __producing__ and __troubleshooting__ electronics and embedded systems.
+# Dr. Michael Betz
+_Embedded Systems & RF Engineering Consultant_
 
-# Product design
+I help companies bring complex electronic and embedded systems to life — from first concept to working prototype and beyond.
 
-  * Complete hardware design for a product (PCB, firmware, drivers, user-interface)
-  * Design of cost-optimized embedded devices (battery operation, secure communication, sensor networks)
-  * Design of high performance FPGA-based data acquisition systems
-  * Technical support for existing products and Design For Manufacturing (reviewing, debugging, optimizing, following up issues)
-  * Adding new features to a product based on user feedback
+Whether you're building a new product, improving an existing one, or need expert help on a niche technical challenge, I can support you at every step.
 
-His specialty is the realization of one-offs, functional mock-ups and prototypes, taking the idea for a product and bringing it into reality.
+## ⚙️ Product & Hardware Design
+- Full-stack embedded systems: hardware (PCBs), firmware, drivers, and interfaces
+- Cost-optimized embedded devices for low-power or battery-operated applications
+- Sensor networks and secure communication solutions
+- High-performance FPGA-based data acquisition systems
+- Feature upgrades and design improvements based on user feedback
+- Troubleshooting and design-for-manufacturing support
 
-Due to his previous projects, Michael has extensive experience in designing medical electrical devices according to the __IEC 60601__ standards.
+**Special focus**: Fast turnaround for one-offs, prototypes, and functional mock-ups
+— turning ideas into tangible solutions.
 
-In any case, he is happy to look into any of your technical problems, big or small.
+I've also worked extensively with medical device development, and am experienced in designing to **IEC 60601** standards.
 
+## ⚡ Specialized Experience: Particle Accelerators & RF Systems
 
-# Accelerators
+I’ve contributed to advanced RF systems for some of the world’s most respected research institutions and labs.
 
-In previous projects he worked with
+### Large Hadron Collider (LHC)
+[![CERN logo](/pics/cern.png){: style="width: 110px; float: right;"}](https://www.cern.ch)
+- Ultra-low-noise microwave front-ends
+- Coherent phase-locked down-converters
+- **Invented and rolled out a user-friendly Python API** that became widely used across CERN for accessing the accelerator control system
 
-![CERN logo](/pics/cern.png){: style="width: 110px;"}
+### Advanced Light Source (ALS)
+[![Berkeley labs logo](/pics/lbl.png){: style="width: 140px; float: right;"}](https://als.lbl.gov/)
+- High-power RF systems (Klystrons, IOTs, Tetrodes): maintenance & troubleshooting
+- EPICS integration, PLC and safety systems
+- Developer of an RF Vector Voltmeter used across the facility
+- Contributor to [Marble](https://github.com/BerkeleyLab/Marble) and [Bedrock](https://github.com/BerkeleyLab/Bedrock)
 
-![Berkeley labs logo](/pics/lbl.png){: style="width: 140px;"}
+### Tarla – Free Electron Laser
+[![Tarla logo](/pics/tarla.png){: style="width: 150px; float: right;"}](https://en.tarla-fel.org/)
+- Superconducting TESLA cavity commissioning
+- RF measurements, conditioning, machine protection system design
 
-![Tarla logo](/pics/tarla.png){: style="width: 150px;"}
+### Private and Industrial
+[![Advantics logo](/pics/advantics.png){: style="width: 200px; float: right;"}](https://advantics.fr/)
+[![Comet PCT logo](/pics/comet_logo.png){: style="width: 150px; float: right;"}](https://pct.comet.tech/en/products/rf-generators)
+- EMC and EMI pre-compliance testing (CISPR 11, EN 55011)
+- Signal processing tools for quality assurance workflows
 
-![Advantics logo](/pics/advantics.png){: style="width: 200px;"}
+# Let's Work Together
 
-![Comet PCT logo](/pics/comet_logo.png){: style="width: 150px;"}
+I'm open to projects of all sizes — from solving a single technical issue to supporting full product development.
 
-
-  * Large scale, decentralized control systems for accelerators _(like EPICS or FESA)_
-  * Industrial Programmable Logic controllers _(PLCs)_ and field-bus interfaces
-  * Accelerator __interlock systems__ for personal and machine protection
-  * Microwave __receiver front-ends__ with very low noise and very high dynamic range
-  * __RF feedback systems__ to control phase and amplitude with
-    high precision and sub-ms latency
-  * Custom-designed instruments for pulsed RF measurements (amplitude and phase)
-
-
-# Customers
-
-
-He previously worked for
-
-  * CERN, Beam Instrumentation and RF group, Switzerland
-  * Lawrence Berkeley National Laboratory, Advanced Light Source RF group, California
-  * Terapet SA, Nuclear Imaging devices for Proton Therapy, Switzerland
-  * Turkish Accelerator Center, Ankara
-
-
-
-
-
-Fastest way to get in touch with Michael is to send an email to [`web@betz-engineering.ch`](mailto:web@betz-engineering.ch).
+📬 **Email me**: [`web@betz-engineering.ch`](mailto:web@betz-engineering.ch)
+That’s the fastest way to get in touch.
 
 ![Graphical divider](/pics/divider.png)
