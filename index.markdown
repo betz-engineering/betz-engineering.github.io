@@ -30,25 +30,23 @@ I’ve contributed to advanced RF systems for some of the world’s most respect
 
 ### Large Hadron Collider (LHC)
 [![CERN logo](/pics/cern.png){: style="width: 110px; float: right;"}](https://www.cern.ch)
-- Ultra-low-noise microwave front-ends
+- Ultra-low-noise microwave front-ends for beam instrumentation
 - Coherent phase-locked down-converters
 - **Invented and rolled out a user-friendly Python API** that became widely used across CERN for accessing the accelerator control system
 
 ### Advanced Light Source (ALS)
 [![Berkeley labs logo](/pics/lbl.png){: style="width: 140px; float: right;"}](https://als.lbl.gov/)
-- High-power RF systems (Klystrons, IOTs, Tetrodes): maintenance & troubleshooting
-- EPICS integration, PLC and safety systems
-- Developer of an RF Vector Voltmeter used across the facility
+- High-power RF systems (Klystrons, IOTs, Tetrodes): commissioning, maintenance & troubleshooting
+- Control and safety systems (EPICS, PLCs)
+- Developer of an [RF Vector Voltmeter](https://github.com/michael-betz/zed_vvm) used across the facility
 - Contributor to [Marble](https://github.com/BerkeleyLab/Marble) and [Bedrock](https://github.com/BerkeleyLab/Bedrock)
 
 ### Tarla – Free Electron Laser
 [![Tarla logo](/pics/tarla.png){: style="width: 150px; float: right;"}](https://en.tarla-fel.org/)
-- Superconducting TESLA cavity commissioning
-- RF measurements, conditioning, machine protection system design
+- Commissioning of a superconducting TESLA cavity
+- RF measurements, machine protection and control system design
 
-### Private and Industrial
-[![Advantics logo](/pics/advantics.png){: style="width: 200px; float: right;"}](https://advantics.fr/)
-[![Comet PCT logo](/pics/comet_logo.png){: style="width: 150px; float: right;"}](https://pct.comet.tech/en/products/rf-generators)
+### Industry
 - EMC and EMI pre-compliance testing (CISPR 11, EN 55011)
 - Signal processing tools for quality assurance workflows
 
