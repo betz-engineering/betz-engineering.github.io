@@ -33,6 +33,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+include:
+  - .well-known
 
 # header_pages:
 #   - about.markdown
