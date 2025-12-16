@@ -13,8 +13,9 @@ theme:
   favicon: pics/be_logo.png
   features:
     - navigation.path
-  static_templates:
-    - .well-known
+
+exclude_docs: |
+  !.well-known
 
 markdown_extensions:
   - attr_list
