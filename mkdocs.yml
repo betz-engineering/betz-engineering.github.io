@@ -1,0 +1,30 @@
+site_name: Betz Engineering
+site_description: Full stack hard- and software design
+site_url: https://betz-engineering.ch
+
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: light green
+  font:
+    text: Ubuntu
+  logo: pics/be_logo.png
+  favicon: pics/be_logo.png
+  features:
+    - navigation.path
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.blocks.caption
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+extra_css:
+  - extra.css
+
+plugins:
+  - search:
+      enabled: false

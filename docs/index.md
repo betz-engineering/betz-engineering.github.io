@@ -1,10 +1,10 @@
 ---
-# use layout: home to enable listing of posts
-title: ""
-layout: page_no_title
+hide:
+  - toc
 ---
-
 # Dr. Michael Betz
+![Logo](pics/be_logo.png){width=150px align=right}
+
 _Embedded Systems & RF Engineering Consultant_
 
 I help companies bring complex electronic and embedded systems to life — from first concept to working prototype and beyond.
@@ -29,20 +29,20 @@ I've also worked extensively with medical device development, and am experienced
 I’ve contributed to advanced RF systems for some of the world’s most respected research institutions and labs.
 
 ### Large Hadron Collider (LHC)
-[![CERN logo](/pics/cern.png){: style="width: 110px; float: right;"}](https://www.cern.ch)
+[![CERN logo](pics/cern.png){width=110px align=right}](https://www.cern.ch)
 - Ultra-low-noise microwave front-ends for beam instrumentation
 - Coherent phase-locked down-converters
 - **Invented and rolled out a user-friendly Python API** that became widely used across CERN for accessing the accelerator control system
 
 ### Advanced Light Source (ALS)
-[![Berkeley labs logo](/pics/lbl.png){: style="width: 140px; float: right;"}](https://als.lbl.gov/)
+[![Berkeley labs logo](pics/lbl.png){width=140px align=right}](https://als.lbl.gov/)
 - High-power RF systems (Klystrons, IOTs, Tetrodes): commissioning, maintenance & troubleshooting
 - Control and safety systems (EPICS, PLCs)
 - Developer of an [RF Vector Voltmeter](https://github.com/michael-betz/zed_vvm) used across the facility
 - Contributor to [Marble](https://github.com/BerkeleyLab/Marble) and [Bedrock](https://github.com/BerkeleyLab/Bedrock)
 
 ### Tarla – Free Electron Laser
-[![Tarla logo](/pics/tarla.png){: style="width: 150px; float: right;"}](https://en.tarla-fel.org/)
+[![Tarla logo](pics/tarla.png){width=150px align=right}](https://en.tarla-fel.org/)
 - Commissioning of a superconducting TESLA cavity
 - RF measurements, machine protection and control system design
 
@@ -57,4 +57,4 @@ I'm open to projects of all sizes — from solving a single technical issue to s
 📬 **Email me**: [`web@betz-engineering.ch`](mailto:web@betz-engineering.ch)
 That’s the fastest way to get in touch.
 
-![Graphical divider](/pics/divider.png)
+![Graphical divider](pics/divider.png)

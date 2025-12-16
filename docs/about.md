@@ -1,18 +1,15 @@
----
-layout: page_no_title
-title: 📋 CV
-permalink: /about/
----
-
-![image](/pics/portrait_cropped.jpg){: style="width: 300px; display: block; margin-left: auto;  margin-right: auto; margin-top: 0; margin-bottom: 0; padding: 0;"}
+![Portrait](pics/portrait_cropped.jpg){width=300px}
+/// caption
+Dr. Michael Betz
+///
 
 # 🔧 Work experience
 
-![image](/pics/terapet.png){: style="width: 150px;"}
+![image](pics/terapet.png){width=150px align=right}
 
 __since 04/2021__ Senior Electronics Engineer at [Terapet SA](https://terapet.ch), Switzerland. Design and realization of a gamma-ray imaging device to improve accuracy and safety in proton therapy
 
-![image](/pics/lbl.png){: style="width: 150px;"}
+![image](pics/lbl.png){width=150px align=right}
 
 __11/2016 - 04/2021__ Senior Electronics Engineer at [Lawrence Berkeley Labs](https://www.lbl.gov/), California.
 
@@ -24,14 +21,14 @@ __11/2016 - 04/2021__ Senior Electronics Engineer at [Lawrence Berkeley Labs](ht
   * RF measurements (also beam-based) on cavities, stripline-kickers and high power amplifiers
   * Contributions to an open-source FPGA carrier board (Marble) and HDL library for accelerator control systems (Bedrock)
 
-![image](/pics/cern.png){: style="width: 120px;"}
+![image](pics/cern.png){width=120px align=right}
 
 __01/2014 - 11/2016__ Electrical engineer at [CERN](https://home.cern/), Switzerland. LHC Beam Instrumentation group.
 
   * Major upgrades to a Schottky noise beam diagnostic system which measures tune and chromaticity of the LHC bunched proton beam in a non-invasive way
 
 # 📖 Education
-![image](/pics/kit.png){: style="width: 120px;"}
+![image](pics/kit.png){width=120px align=right}
 
 __01/2011 - 01/2014__ PhD in Electrical Engineering at the [Karlsruhe Institute of Technology](https://www.kit.edu/) / CERN
 

@@ -1,0 +1,8 @@
+.md-content h1:not(:first-of-type) {
+    margin-top: 4rem;
+}
+/* Always display logo immediately after hamburger */
+.md-header__button.md-logo {
+    grid-column: 1;
+    display: flex;
+}
