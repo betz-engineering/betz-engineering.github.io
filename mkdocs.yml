@@ -13,6 +13,8 @@ theme:
   favicon: pics/be_logo.png
   features:
     - navigation.path
+  static_templates:
+    - .well-known
 
 markdown_extensions:
   - attr_list
