@@ -1,3 +1,6 @@
+---
+icon: octicons/person-fill-16
+---
 ![Portrait](pics/portrait_cropped.jpg){width=300px}
 /// caption
 Dr. Michael Betz
