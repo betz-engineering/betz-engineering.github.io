@@ -13,6 +13,7 @@ theme:
   favicon: pics/be_logo.png
   features:
     - navigation.path
+    - navigation.indexes
 
 exclude_docs: |
   !.well-known
@@ -27,8 +28,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Open Hardware: open_hardware.md
-  - About: about.md
+  - Open Hardware:
+    - open_hardware/index.md
+    - open_hardware/ui_board_1u.md
+  - about.md
 
 extra_css:
   - extra.css
@@ -36,3 +39,5 @@ extra_css:
 plugins:
   - search:
       enabled: false
+  - glightbox
+

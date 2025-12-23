@@ -1,5 +1,7 @@
 ---
 icon: octicons/person-fill-16
+hide:
+  - toc
 ---
 ![Portrait](pics/portrait_cropped.jpg){width=300px}
 /// caption
