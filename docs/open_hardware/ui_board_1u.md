@@ -40,7 +40,8 @@ Here are the recommended cut-outs for the front-panel. Note that the blue filled
 Recommended front panel cut-outs [mm]
 ///
 
-To improve the appearance of the rectangular cut-out, I recommend to round the corners and add chamfering on the edges.
+!!! tip
+    To improve the appearance of the rectangular cut-out, round the corners (r = 2 mm) and add chamfering on the edges.
 
 Acrylic light-guides are used to integrate the LEDs into the front panel. They provide some flexibility with respect to the thickness of the front-panel and make the PCB easier to manufacture. All orders include light-guides for 5 mm holes.
 
@@ -61,9 +62,32 @@ The _ears_ or _legacy mounting holes_ are included in Rev: - of the PCB to stay 
 On the bright side, these mounting holes make the board 100 % compatible with the `ui_board`. The encoder and LEDs were placed in the same location and the pinout is compatible, allowing LBNL to use this board as a replacement-part for the existing chassis.
 
 On the not-so-bright side, these mounting holes prevent the board to be used within the strict height limitations of a 1U chassis. For this use-case, alternative mounting holes have been provided, reducing the board dimensions to 148 x 30 mm. The ears have been perforated, such that they can be broken off and removed rather easily.
-<!--
-## Connectivity
 
-## Software
-  * Example project: acceptance test
- -->
+## Pinout
+When looking at J1 (the IDC connector) on the bottom side of the PCB, pin 1 is on the top left and marked by a triangle. Pin 2 is on the top right.
+The pinout table of J1 is:
+
+| Pin    | IO[^1] | Name      | Comment                                  |
+|--------|--------|-----------|------------------------------------------|
+| 1      | I      | CS_OLED_N | Chip-select for the SSD1322. Active low  |
+| 2      | O      | INT_IO    | Interrupt signal from the MCP23S17       |
+| 3      | I      | SDI       | Shared Serial Data Input                 |
+| 4      | I      | RES_N     | Shared reset. Active low                 |
+| 5      | O      | SDO       | Serial Data Output from the MCP23S17     |
+| 6      | I      | CS_IO_N   | Chip-select for the MCP23S17. Active low |
+| 7      | I      | SCK       | Shared Serial Clock                      |
+| 8      | I      | D_C       | Data / Command selection for the SSD1322 |
+| 9, 10  |        | GND       | Common Ground                            |
+| 11, 12 |        | VCC       | Supply Voltage, 3.3 V - 12 V, 500 mA     |
+
+[^1]: __I__ = input pin, __O__ = output pin
+
+The PCB is designed to be connected to a PMOD2A host through an __IDC ribbon cable__. These cables provide a 1:1 connection from pin 1 ... N on one side to pin 1 ... N on the other side.
+
+!!! tip
+    Pre-assembled ribbon cables can be found by searching for _FC-FD DC4 IDC 2.54mm pitch Male to Female connector_.
+
+!!! warning
+    Because ui_board_1u was designed to be used with a ribbon cable, the J1 port is not 100 % PMOD compatible. The PMOD standard anticipates a column swap (even and odd pin numbers are swapped), which originates from the fact that the PMOD host has the female pin receptacle on the PCB top side while the peripheral has the male pin header on the bottom side.
+
+    What this means in practice is that if you connect the ui_board_1u __directly__ to a PMOD port, it will have its two columns swapped with respect to the PMOD2A expectation. For the supply pins this doesn't matter. For the data pins it is likely that the PMOD host can accommodate this difference in pinout, especially if it is a FPGA board.

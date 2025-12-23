@@ -14,13 +14,18 @@ theme:
   features:
     - navigation.path
     - navigation.indexes
+    - content.footnote.tooltips
 
 exclude_docs: |
   !.well-known
 
 markdown_extensions:
+  - admonition
+  - footnotes
   - attr_list
   - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
