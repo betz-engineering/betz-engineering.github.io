@@ -22,7 +22,7 @@ ui_board_1u exists to remove that friction: it is a ready-to-use, open hardware 
 
 [:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_board_1u/blob/dev/pics/ui_board_1u.pdf){ .md-button }
 [:material-layers-triple-outline: Design files](https://github.com/betz-engineering/ui_board_1u){ .md-button }
-[:simple-docsdotrs: Datasheet](#){ .md-button }
+[:material-file: .step](pics/ui_board_1u.step.zip){ .md-button }
 
 ## Front-panel integration
 The board is mounted with 4x M2.5 hexagonal standoffs. It's critical that they are of __8 mm length__, else the mounting surface of the encoder will not be flush with the frontpanel.
