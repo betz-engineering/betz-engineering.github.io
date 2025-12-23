@@ -6,3 +6,8 @@
     grid-column: 1;
     display: flex;
 }
+
+/* Add spacing around buttons */
+.md-button {
+    margin: 0.2rem;
+}
