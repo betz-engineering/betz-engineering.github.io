@@ -53,11 +53,17 @@ Top-down view on how the ui_board_1u is mounted on a front-panel.
 
 In the diagram, the front-panel is shown in dark grey, the M2.5 standoffs in red, the LED light-guides in white.
 
-A button-cap is included to expose the button to the outside. Note that the button is optional, if it is not required, do not machine the corresponding d5.0 mm hole and do not install the button-cap.
+A button-cap is included to expose the tactile button to the outside. Note that the button is optional. If it is not required, do not machine the corresponding d5.0 mm hole and do not install the button-cap.
 
 ## :ear: What about the ears? :ear:
 The _ears_ or _legacy mounting holes_ are included in Rev: - of the PCB to stay compatible with the footprint of the older `ui_board` design, which was used extensively at LBNL.
 
 On the bright side, these mounting holes make the board 100 % compatible with the `ui_board`. The encoder and LEDs were placed in the same location and the pinout is compatible, allowing LBNL to use this board as a replacement-part for the existing chassis.
 
-On the not-so-bright side, these mounting holes prevent the board to be used within the strict height limitations of 1U chassis. For this use-case, alternative mounting holes have been provided, reducing the board dimensions to 148 x 30 mm. The ears have been perforated, such that they can be broken off and removed rather easily.
+On the not-so-bright side, these mounting holes prevent the board to be used within the strict height limitations of a 1U chassis. For this use-case, alternative mounting holes have been provided, reducing the board dimensions to 148 x 30 mm. The ears have been perforated, such that they can be broken off and removed rather easily.
+<!--
+## Connectivity
+
+## Software
+  * Example project: acceptance test
+ -->
