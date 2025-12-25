@@ -10,17 +10,20 @@ Please get in touch if you're interested in buying any of these designs. I may h
 📬 **Email me**: [`web@betz-engineering.ch`](mailto:web@betz-engineering.ch)
 
 <div class="grid cards" markdown>
--   [:material-clock-digital:{ .lg .middle } __ui_board_1u__](ui_board_1u.md)
+-   [:material-clock-digital:{ .lg .middle } __ui_board_1u__](ui_board_1u.md) <span class="shop-ui" data-product="ui_board_1u"></span>
 
     ---
 
     [![ui_board_1u PCB render](pics/ui_board_front.jpg)](ui_board_1u.md)
     A versatile User Interface solution for chassis front panels, down to 1U height.
 
--   [:fontawesome-solid-microchip:{ .lg .middle } __Obsidian A35__](https://github.com/BerkeleyLab/Obsidian)
+-   [:fontawesome-solid-microchip:{ .lg .middle } __Obsidian A35__](https://github.com/BerkeleyLab/Obsidian) <span class="shop-ui" data-product="obsidian_a35"></span>
 
     ---
 
     [![Obsidian PCB render](https://github.com/BerkeleyLab/Obsidian/raw/main/Obsidian/3Drender.JPG)](https://github.com/BerkeleyLab/Obsidian)
     A low-cost FPGA carrier board, compatible with Arduino and PMOD extension boards.
 </div>
+
+
+<!-- <script src="inventory.js"></script> -->

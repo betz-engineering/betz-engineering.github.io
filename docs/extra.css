@@ -11,3 +11,8 @@
 .md-button {
     margin: 0.2rem;
 }
+
+/* Inventory */
+.shop-ui {
+    float: right;
+}
