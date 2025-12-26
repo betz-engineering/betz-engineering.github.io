@@ -56,8 +56,8 @@ Top-down view showing how the ui_board_1u is mounted. The front panel is shown i
     A button-cap is included to expose the tactile button to the outside. Note that the button is optional. If it is not required, do not machine the corresponding d5.0 mm hole and do not install the button-cap.
 
 ### Front panel designer
-The Front Panel Designer software offers an easy way to design and order custom machined front-panels.
-An example design is included here as a starting point for your own front-panel. Just copy and paste the mounting hole footprint into your own design.
+The [Front Panel Designer](https://www.frontpanelexpress.com/) software can be used to design and order custom machined panels easily.
+For convenience, an example project is provided here as a starting point. Just copy and paste the mounting hole footprint into your own design.
 
 !!! warning
     Remove the outer 4 _legacy_ mounting studs if you plan to use the board in a 1U chassis.
@@ -66,9 +66,9 @@ An example design is included here as a starting point for your own front-panel.
 
 ![Example Front Panel Designer File](pics/ui_fp_designer.png)
 
-![PCB mounted on front-panel](pics/ui_mounted.jpg)
+![PCB mounted on front panel](pics/ui_mounted.jpg)
 /// caption
-PCB mounted on the example front-panel (3 mm thickness). The Panel is shown in a semi-transparent way, making the mounting studs more visible.
+PCB mounted on the example front panel with 3 mm thickness.
 ///
 
 ## :ear: What about the ears? :ear:
