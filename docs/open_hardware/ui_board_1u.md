@@ -5,7 +5,7 @@ icon: material/clock-digital
 
 [:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_board_1u/blob/dev/pics/ui_board_1u.pdf){ .md-button }
 [:material-layers-triple-outline: Design files](https://github.com/betz-engineering/ui_board_1u){ .md-button }
-[:material-file: 3D model](pics/ui_board_1u.step.zip){ .md-button }
+[:material-file: 3D model](https://github.com/betz-engineering/ui_board_1u/raw/refs/heads/main/cad/step/ui_board_1u.step){ .md-button }
 
 A versatile User Interface (UI) for 1U systems
 
@@ -54,6 +54,22 @@ Top-down view showing how the ui_board_1u is mounted. The front panel is shown i
 
 !!! info
     A button-cap is included to expose the tactile button to the outside. Note that the button is optional. If it is not required, do not machine the corresponding d5.0 mm hole and do not install the button-cap.
+
+### Front panel designer
+The Front Panel Designer software offers an easy way to design and order custom machined front-panels.
+An example design is included here as a starting point for your own front-panel. Just copy and paste the mounting hole footprint into your own design.
+
+!!! warning
+    Remove the outer 4 _legacy_ mounting studs if you plan to use the board in a 1U chassis.
+
+[:material-file: example_panel_1U.fpd](https://github.com/betz-engineering/ui_board_1u/raw/refs/heads/main/cad/example_panel_1U.fpd){ .md-button }
+
+![Example Front Panel Designer File](pics/ui_fp_designer.png)
+
+![PCB mounted on front-panel](pics/ui_mounted.jpg)
+/// caption
+PCB mounted on the example front-panel (3 mm thickness). The Panel is shown in a semi-transparent way, making the mounting studs more visible.
+///
 
 ## :ear: What about the ears? :ear:
 The _ears_ or _legacy mounting holes_ are included in Rev: - of the PCB to stay compatible with the footprint of the older `ui_board` design, which was used extensively at LBNL.
