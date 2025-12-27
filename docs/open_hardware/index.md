@@ -25,5 +25,4 @@ Please get in touch if you're interested in buying any of these designs. I may h
     A low-cost FPGA carrier board, compatible with Arduino and PMOD extension boards.
 </div>
 
-
-<!-- <script src="inventory.js"></script> -->
+<script src="inventory.js"></script>
