@@ -5,7 +5,7 @@ icon: material/clock-digital
 
 [:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_board_1u/blob/dev/pics/ui_board_1u.pdf){ .md-button }
 [:material-layers-triple-outline: Design files](https://github.com/betz-engineering/ui_board_1u){ .md-button }
-[:material-file: 3D model](https://github.com/betz-engineering/ui_board_1u/raw/refs/heads/main/cad/step/ui_board_1u.step){ .md-button }
+[:material-file: 3D model](pics/ui_board_1u.step.zip){ .md-button }
 
 A versatile User Interface (UI) for 1U systems
 
