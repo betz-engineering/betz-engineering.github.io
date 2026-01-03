@@ -36,6 +36,7 @@ nav:
   - Open Hardware:
     - open_hardware/index.md
     - open_hardware/ui_board_1u.md
+    - open_hardware/ui_to_usb.md
   - about.md
 
 extra_css:

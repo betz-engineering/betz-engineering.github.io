@@ -17,6 +17,14 @@ Please get in touch if you're interested in buying any of these designs. I may h
     [![ui_board_1u PCB render](pics/ui_board_front.jpg)](ui_board_1u.md)
     A versatile User Interface solution for chassis front panels, down to 1U height.
 
+-   [:fontawesome-brands-usb:{ .lg .middle } __ui_to_usb__](ui_to_usb.md) <span class="shop-ui" data-product="ui_to_usb"></span>
+
+    ---
+
+    [![ui_to_usb PCB render](pics/ui_to_usb.jpg)](ui_to_usb.md)
+    A USB-interface add-on board for ui_board_1u.
+
+
 -   [:fontawesome-solid-microchip:{ .lg .middle } __Obsidian A35__](https://github.com/BerkeleyLab/Obsidian) <span class="shop-ui" data-product="obsidian_a35"></span>
 
     ---
