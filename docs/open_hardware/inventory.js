@@ -13,7 +13,7 @@
     products.map(p => [p.name, p.stock])
   );
 
-  document.querySelectorAll(".shop-ui").forEach(el => {
+  document.querySelectorAll(".shop-ui-link").forEach(el => {
     const id = el.dataset.product;
     if (!(id in stock))
       return;
@@ -23,10 +23,26 @@
     if (qty > 0) {
       // create a buy now link
       const link = document.createElement("a");
+      link.classList.add('.md-button');
       link.href = `https://inventory.betz-engineering.ch/checkout/${id}`;
       link.target = "_blank";
       link.textContent = `🛒 ${qty} in stock`;
       el.appendChild(link);
+    } else {
+      el.textContent = "No stock";
+      el.style.color = "grey";
+    }
+  });
+
+  document.querySelectorAll(".shop-ui").forEach(el => {
+    const id = el.dataset.product;
+    if (!(id in stock))
+      return;
+
+    const qty = stock[id];
+
+    if (qty > 0) {
+      el.textContent = `🛒 ${qty} in stock`;
     } else {
       el.textContent = "No stock";
       el.style.color = "grey";

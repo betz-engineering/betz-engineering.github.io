@@ -114,3 +114,23 @@ The PCB is designed to be connected to a PMOD2A host through an __IDC ribbon cab
   * `D1` can serve as a power LED, which is green and always on as soon as power is applied.
 To force the green LED on, use SW4.
   * `J5` is an extension connector which provides 3V3 and 5 outputs of the GPIO extender. Use it to connect extra LEDs, switches or buttons.
+
+## Buying it
+You can use the checkout button below to order this PCB directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
+
+The PCBs will be shipped the next day from Switzerland. Please make sure to select the correct shipping charge (within Switzerland, European Union or United States) during checkout.
+
+Here's what's included
+
+  * fully assembled and tested ui_board_1u
+  * Machined Aluminum knob for the rotary encoder
+  * Matching cap for the tactile button
+  * Light-guides with diameter 5 mm and length 7.0 mm
+  * Light-guides with diameter 5 mm and length 7.5 mm
+  * A 27 cm long IDC ribbon cable
+  * A male to male pin header, to connect to a PMOD host
+
+![Photo of ui_board_1u with accessories](pics/ui_board_photo.jpg)
+
+<span class="shop-ui-link" data-product="ui_to_usb"></span>
+<script src="../inventory.js"></script>
