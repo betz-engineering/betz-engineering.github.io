@@ -27,3 +27,20 @@ A dedicated user-space library will be provided, demonstrating:
 Beyond embedded systems, ui_to_usb also simplifies PC-based development, making it ideal for prototyping and testing UI code directly on a desktop or laptop.
 
 
+## Buying it
+<span class="shop-ui-button" data-product="ui_to_usb"></span>
+
+You can use the checkout button above to order this PCB directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
+
+The PCBs will be shipped the next day from Switzerland. Please make sure to select the correct shipping charge (within Switzerland, European Union or United States) during checkout.
+
+Here's what's included
+
+  * Fully assembled and tested ui_to_usb
+  * 2x nylon standoffs for mounting (M2.5, l = 12 mm)
+
+![Photo of ui_to_usb](pics/ui_to_usb_photo.jpg)
+
+![Photo of ui_to_usb attached to ui_board_1u](pics/ui_to_usb_photo_installed.jpg)
+
+<script src="../inventory.js"></script>

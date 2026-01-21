@@ -13,7 +13,7 @@
     products.map(p => [p.name, p.stock])
   );
 
-  document.querySelectorAll(".shop-ui-link").forEach(el => {
+  document.querySelectorAll(".shop-ui-button").forEach(el => {
     const id = el.dataset.product;
     if (!(id in stock))
       return;
@@ -23,7 +23,7 @@
     if (qty > 0) {
       // create a buy now link
       const link = document.createElement("a");
-      link.classList.add('.md-button');
+      link.classList.add('md-button');
       link.href = `https://inventory.betz-engineering.ch/checkout/${id}`;
       link.target = "_blank";
       link.textContent = `🛒 ${qty} in stock`;
