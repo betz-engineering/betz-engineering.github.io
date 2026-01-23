@@ -9,10 +9,7 @@ icon: fontawesome/brands/usb
 
 A USB Interface Add-On for [ui_board_1u](ui_board_1u.md)
 
-![Installed ui_to_sub board](pics/ui_to_usb_installed.jpg)
-/// caption
-Render of the installed ui_to_usb addon board.
-///
+![Photo of ui_to_usb attached to ui_board_1u](pics/ui_to_usb_photo_installed.jpg)
 
 ui_to_usb enables simple and reliable USB interfacing. It is designed for use with embedded Linux systems such as Linux-based PCs and Zynq FPGA platforms, making it easy to integrate a full user interface into these environments.
 
@@ -40,7 +37,5 @@ Here's what's included
   * 2x nylon standoffs for mounting (M2.5, l = 12 mm)
 
 ![Photo of ui_to_usb](pics/ui_to_usb_photo.jpg)
-
-![Photo of ui_to_usb attached to ui_board_1u](pics/ui_to_usb_photo_installed.jpg)
 
 <script src="../inventory.js"></script>

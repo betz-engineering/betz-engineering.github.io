@@ -9,7 +9,7 @@ icon: material/clock-digital
 
 A versatile User Interface (UI) for 1U systems
 
-  * 256 x 64 OLED display with high readability
+  * 256 x 64 OLED display with 16 grey-scales and high readability
   * Rotary encoder and 2 multi-color status LEDs
   * Proven design. Originated at LBNL and adopted across multiple projects and labs
   * Optimized for 1U chassis. Solves the common problem of fitting a readable display within strict 1U height constraints
@@ -101,9 +101,6 @@ The pinout table of J1 is:
 [^1]: __I__ = input pin, __O__ = output pin
 
 The PCB is designed to be connected to a PMOD2A host through an __IDC ribbon cable__. These cables provide a 1:1 connection from pin 1 ... N on one side to pin 1 ... N on the other side.
-
-!!! tip
-    Pre-assembled ribbon cables can be found by searching for _FC-FD DC4 IDC 2.54mm pitch Male to Female connector_.
 
 !!! warning
     Because ui_board_1u was designed to be used with a ribbon cable, the J1 port is not 100 % PMOD compatible. The PMOD standard anticipates a column swap (even and odd pin numbers are swapped), which originates from the fact that the PMOD host has the female pin receptacle on the PCB top side while the peripheral has the male pin header on the bottom side.
