@@ -6,6 +6,8 @@ icon: fontawesome/brands/usb
 [:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_to_usb/blob/main/pics/ui_to_usb.pdf){ .md-button }
 [:material-layers-triple-outline: Design files](https://github.com/betz-engineering/ui_to_usb){ .md-button }
 [:material-file: 3D model](pics/ui_to_usb.step.zip){ .md-button }
+[:simple-python: Python support](https://github.com/betz-engineering/ui_board_python){ .md-button }
+
 
 A USB Interface Add-On for [ui_board_1u](ui_board_1u.md)
 
@@ -15,11 +17,11 @@ ui_to_usb enables simple and reliable USB interfacing. It is designed for use wi
 
 The board is fully bus-powered and uses an FT232 USB-to-serial interface, ensuring driver support out of the box on most Linux distributions. This allows rapid setup without custom kernel drivers.
 
-A dedicated user-space library will be provided, demonstrating:
+A [Python support library](https://github.com/betz-engineering/ui_board_python) is available. It features:
 
-  * Display initialization and drawing
-  * Reading the rotary encoder
+  * Display initialization and anti-aliased drawing
   * Controlling the onboard LEDs
+  * Reading the rotary encoder (WIP)
 
 Beyond embedded systems, ui_to_usb also simplifies PC-based development, making it ideal for prototyping and testing UI code directly on a desktop or laptop.
 
