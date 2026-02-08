@@ -6,7 +6,7 @@ icon: fontawesome/brands/usb
 [:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_to_usb/blob/main/pics/ui_to_usb.pdf){ .md-button }
 [:material-layers-triple-outline: Design files](https://github.com/betz-engineering/ui_to_usb){ .md-button }
 [:material-file: 3D model](pics/ui_to_usb.step.zip){ .md-button }
-[:simple-python: Python support](https://github.com/betz-engineering/ui_board_python){ .md-button }
+[:simple-python: Python support](https://github.com/betz-engineering/ui_to_usb_firmware/tree/main/py_ui_board/util){ .md-button }
 
 
 A USB Interface Add-On for [ui_board_1u](ui_board_1u.md)
