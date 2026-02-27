@@ -11,14 +11,15 @@ icon: fontawesome/brands/usb
 
 A USB to PMOD interface. Specifically designed as an add-on for [ui_board_1u](ui_board_1u.md).
 
-![Photo of ui_to_usb attached to ui_board_1u](pics/ui_to_usb_photo_installed.jpg)
+![Photo of ui_to_usb attached to ui_board_1u](pics/ui_to_usb_installed.jpg)
 
 The board was designed to easily add a front-panel user interface to embedded Linux systems such as Raspberry Pis, or Zynq FPGAs. However, as it is fully programmable, it can be used as a general purpose interface block to add PMOD extension boards to USB capable hosts.
+
 Beyond embedded systems, ui_to_usb also simplifies PC-based user interface development, making it ideal for prototyping and testing UI code directly on a desktop or laptop.
 
 ![Photo of ui_to_usb](pics/ui_to_usb_photo.jpg)
 
-The board is fully bus-powered and features a CH32V203 RISC-V based microcontroller. Its toolchain is fully open-source and thanks to platform.io support, the firmware can be built and uploaded to the chip with a single command. The chip features a built-in USB bootloader, so no additional programming hardware is necessary.
+The board is fully bus-powered and features a CH32V203 RISC-V based microcontroller. Its toolchain is open-source and thanks to platform.io support, the firmware can be built and uploaded to the chip with a single command. The chip features a built-in USB bootloader, so no additional programming cable is necessary.
 
 For the usage with ui_to_usb, a [Python support library](https://github.com/betz-engineering/ui_to_usb_firmware/tree/main/py_ui_board) is provided. It features:
 
@@ -36,8 +37,8 @@ The PCBs will be shipped the next day from Switzerland. Please make sure to sele
 
 Here's what's included
 
-  * Fully assembled and tested ui_to_usb
-  * 2x nylon standoffs for mounting (M2.5, l = 12 mm)
+  * Fully assembled, programmed and tested ui_to_usb_rev_1
+  * 2x nylon standoffs for mounting on ui_board_1u (M2.5, l = 12 mm)
 
 
 <script src="../inventory.js"></script>
