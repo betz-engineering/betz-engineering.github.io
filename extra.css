@@ -1,0 +1,18 @@
+.md-content h1:not(:first-of-type) {
+    margin-top: 4rem;
+}
+/* Always display logo immediately after hamburger */
+.md-header__button.md-logo {
+    grid-column: 1;
+    display: flex;
+}
+
+/* Add spacing around buttons */
+.md-button {
+    margin: 0.2rem;
+}
+
+/* Inventory */
+.shop-ui {
+    float: right;
+}

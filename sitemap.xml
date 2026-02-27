@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://betz-engineering.ch/</loc>
+         <lastmod>2026-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://betz-engineering.ch/about/</loc>
+         <lastmod>2026-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://betz-engineering.ch/open_hardware/</loc>
+         <lastmod>2026-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://betz-engineering.ch/open_hardware/ui_board_1u/</loc>
+         <lastmod>2026-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://betz-engineering.ch/open_hardware/ui_to_usb/</loc>
+         <lastmod>2026-02-27</lastmod>
+    </url>
+</urlset>
