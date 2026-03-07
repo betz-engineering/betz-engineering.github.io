@@ -14,24 +14,23 @@ A versatile User Interface (UI) for 1U systems
   * Proven design. Originated at LBNL and adopted across multiple projects and labs
   * Optimized for 1U chassis. Solves the common problem of fitting a readable display within strict 1U height constraints
 
-![3D render of the ui_board_1u PCB](pics/ui_mounting2.jpg)
-/// caption
-Dimensions [mm] of the board outline and the position of the mounting holes
-///
+## Why it exists
+Rack-mount "pizza box" systems often need a simple, reliable way to show status, report errors, and allow basic configuration -- but integrating a front panel UI in a 1U chassis is surprisingly time-consuming.
 
 ![Example chassis design integrating the ui_board](pics/ui_board_example.jpg)
 /// caption
 A real world example of a front panel integrating the ui_board
 ///
 
-
-## Why it exists
-Rack-mount "pizza box" systems often need a simple, reliable way to show status, report errors, and allow basic configuration -- but integrating a front panel UI in a 1U chassis is surprisingly time-consuming.
-
 ui_board_1u exists to remove that friction: it is a ready-to-use, open hardware UI module with a proven mechanical footprint, designed specifically for tight 1U height constraints, so engineers can add a professional front panel interface without reinventing the mechanics, display choice, or software from scratch.
 
 ## Front panel integration
 The board is mounted with 4x M2.5 hexagonal standoffs. It's critical that they are of __8 mm length__, else the mounting surface of the encoder will not be flush with the front panel.
+
+![3D render of the ui_board_1u PCB](pics/ui_mounting2.jpg)
+/// caption
+Dimensions [mm] of the board outline and the position of the mounting holes
+///
 
 Here are the recommended cut-outs for the front panel. Note that the blue filled circles represent the M2.5 standoffs.
 
