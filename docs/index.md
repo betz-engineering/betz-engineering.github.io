@@ -6,24 +6,23 @@ hide:
 # Dr. Michael Betz
 ![Logo](pics/be_logo.png){width=150px align=right}
 
-_Embedded Systems & RF Engineering Consultant_
+_Electrical Engineering Consultant_
 
-I help companies bring complex electronic and embedded systems to life — from first concept to working prototype and beyond.
+I help companies bring complex electronics to life — from first concept to working prototype and beyond.
 
-Whether you're building a new product, improving an existing one, or need expert help on a niche technical challenge, I can support you at every step.
+Whether you're planning a new product, improving an existing one, or need expert help on a niche technical challenge, I can support you at every step.
 
-## ⚙️ Product & Hardware Design
+## ⚙️ Hardware Design
 - Full-stack embedded systems: hardware (PCBs), firmware, drivers, and interfaces
 - Cost-optimized embedded devices for low-power or battery-operated applications
 - Sensor networks and secure communication solutions
 - High-performance FPGA-based data acquisition systems
-- Feature upgrades and design improvements based on user feedback
-- Troubleshooting and design-for-manufacturing support
+- Design for testing and design for manufacturing experience
 
 **Special focus**: Fast turnaround for one-offs, prototypes, and functional mock-ups
 — turning ideas into tangible solutions.
 
-I've also worked extensively with medical device development, and am experienced in designing to **IEC 60601** standards.
+I've also worked extensively with medical devices, and am experienced in designing to **IEC 60601** standards.
 
 ## ⚡ Specialized Experience: Particle Accelerators & RF Systems
 
