@@ -9,6 +9,8 @@ icon: material/clock-digital
 
 A versatile User Interface (UI) for 1U systems
 
+![Photo of ui_board_1u with accessories](pics/ui_board_photo.jpg)
+
   * 256 x 64 OLED display with 16 grey-scales and high readability
   * Rotary encoder and 2 multi-color status LEDs
   * Proven design. Originated at LBNL and adopted across multiple projects and labs
