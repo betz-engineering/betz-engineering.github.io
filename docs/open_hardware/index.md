@@ -14,21 +14,21 @@ Please get in touch if you're interested in buying any of these designs. I may h
 
     ---
 
-    [![clock_box PCB render](https://raw.githubusercontent.com/betz-engineering/clock_box/refs/heads/main/pdf/render.jpg)](https://github.com/betz-engineering/clock_box/tree/main)
+    [![clock_box PCB render](pics/clock_box_photo.jpg)](https://github.com/betz-engineering/clock_box/tree/main)
     Coming soon: A handy clock-generator for the FPGA lab.
 
 -   [:material-clock-digital:{ .lg .middle } __ui_board_1u__](ui_board_1u.md)
 
     ---
 
-    [![ui_board_1u PCB render](pics/ui_board_front.jpg)](ui_board_1u.md)
+    [![ui_board_1u PCB render](pics/ui_board_photo2.jpg)](ui_board_1u.md)
     A versatile User Interface solution for chassis front panels, down to 1U height.
 
 -   [:fontawesome-brands-usb:{ .lg .middle } __ui_to_usb__](ui_to_usb.md)
 
     ---
 
-    [![ui_to_usb PCB render](pics/ui_to_usb.jpg)](ui_to_usb.md)
+    [![ui_to_usb PCB render](pics/ui_to_usb_photo2.jpg)](ui_to_usb.md)
     A USB-interface add-on board for ui_board_1u.
 
 
