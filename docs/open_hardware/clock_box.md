@@ -13,7 +13,8 @@ A handy little clock generator for the RF and digital electronics lab. Use it as
   * Based on the [__LMX2572__](https://www.ti.com/product/LMX2572) wideband RF synthesizer chip
   * Frequency range: __12.5 MHz - 6.4 GHz__
   * Adjustment resolution: __1 Hz__ (Firmware limitation. Higher resolutions are possible)
-  * Typical Jitter: __240 fs__ (within 100 Hz - 40 MHz, better than Si570, see PN plots below)
+  * Frequency stability: __+- 2.5 ppm__ (-30 &deg;C ... 85 &deg;C)
+  * Phase Jitter: __240 fs__ (within 100 Hz - 40 MHz, see Phase Noise plots below)
 
 # User interface
 
@@ -27,11 +28,11 @@ All user adjustments are stored in non-volatile memory and automatically restore
 
 The USB interface enumerates as a serial port. Frequency and power can be read and written with a SCPI-like interface.
 
-Each device has a unique serial number, which allows to tell them apart if several are connected to the same PC.
+Each device has an unique serial number, which allows to tell them apart if several are connected to the same PC.
 
-Open source firmware which can be easily updated through the USB interface (no extra programming adapter needed).
+[Open source firmware](https://github.com/betz-engineering/clock_box_firmware/) which can be easily updated through the USB interface (no extra programming adapter needed).
 
-# Output properties
+# RF output properties
   * Output type: AC-coupled, differential pair (to drive single ended loads, terminate one output with the included 50 Ohm termination)
   * Output power: > 5 dBm into 50 Ohm (800 mV peak to peak). Adjustable in 64 steps.
   * Output waveform: Square wave. Use external filter to remove harmonics if a sine-wave is needed
