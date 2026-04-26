@@ -30,6 +30,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
@@ -37,6 +39,7 @@ nav:
     - open_hardware/index.md
     - open_hardware/ui_board_1u.md
     - open_hardware/ui_to_usb.md
+    - open_hardware/clock_box.md
   - about.md
 
 extra_css:

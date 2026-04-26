@@ -10,12 +10,12 @@ Please get in touch if you're interested in buying any of these designs. I may h
 📬 **Email me**: [`web@betz-engineering.ch`](mailto:web@betz-engineering.ch)
 
 <div class="grid cards" markdown>
--   [:material-sine-wave:{ .lg .middle } __clock_box__](https://github.com/betz-engineering/clock_box/tree/main)
+-   [:material-sine-wave:{ .lg .middle } __clock_box__](clock_box.md)
 
     ---
 
-    [![clock_box PCB render](pics/clock_box_photo.jpg)](https://github.com/betz-engineering/clock_box/tree/main)
-    Coming soon: A handy clock-generator for the FPGA lab.
+    [![clock_box PCB render](pics/clock_box_photo.jpg)](clock_box.md)
+    A handy clock-generator for the FPGA lab.
 
 -   [:material-clock-digital:{ .lg .middle } __ui_board_1u__](ui_board_1u.md)
 
