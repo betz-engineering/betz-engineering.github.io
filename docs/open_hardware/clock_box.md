@@ -34,7 +34,7 @@ Each device has an unique serial number, which allows to tell them apart if seve
 
 # RF output properties
   * Output type: AC-coupled, differential pair (to drive single ended loads, terminate one output with the included 50 Ohm termination)
-  * Output power: > 5 dBm into 50 Ohm (800 mV peak to peak). Adjustable in 64 steps.
+  * Output power: 11 dBm (800 mV amplitude) into 50 Ohm at 200 MHz. Adjustable in 64 steps.
   * Output waveform: Square wave. Use external filter to remove harmonics if a sine-wave is needed
 
 === "Wfm @ 125 MHz"
