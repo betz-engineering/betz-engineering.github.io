@@ -118,7 +118,9 @@ To force the green LED on, use SW4.
 
 You can use the checkout button above to order this PCB directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
 
-The PCBs will be shipped the next day from Switzerland. Please make sure to select the correct shipping charge (within Switzerland, European Union or United States) during checkout.
+The PCBs will be shipped ✉️ within a day or two from Switzerland.
+Please make sure to select the correct shipping charge during checkout.
+Within Switzerland is free 😎.
 
 Here's what's included
 
