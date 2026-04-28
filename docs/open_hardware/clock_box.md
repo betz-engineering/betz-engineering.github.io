@@ -38,7 +38,10 @@ Each device has an unique serial number, which allows to tell them apart if seve
   * Output waveform: Square wave. Use external filter to remove harmonics if a sine-wave is needed
 
 === "Wfm @ 125 MHz"
-    ![Output waveform at 125 MHz](pics/clock_box_125MHz.png)
+    ![Output waveform at 125 MHz at half power](pics/clock_box_125MHz.png)
+
+=== "Wfm @ 200 MHz"
+    ![Output waveform at 200 MHz at full power](pics/clock_box_200MHz.png)
 
 === "PN @ 25 MHz"
     ![Phase noise at 25 MHz](pics/pn_25MHz.png)
