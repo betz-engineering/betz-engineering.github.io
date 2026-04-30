@@ -88,11 +88,11 @@ The [firmware](https://github.com/betz-engineering/clock_box_firmware/) is open 
 ## Buying it
 <span class="shop-ui-button" data-product="clock_box"></span>
 
-You can use the checkout button above to order this PCB directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
+You can use the checkout button above to order this device directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
 
 ✉️✉️✉️
 
-The PCBs will be shipped within a day or two from Switzerland.
+The product will be shipped within a day or two from Switzerland.
 Please make sure to select the correct shipping charge during checkout.
 Within Switzerland it's free 😎.
 
