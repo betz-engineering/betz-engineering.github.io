@@ -4,11 +4,13 @@ icon: material/sine-wave
 # :material-sine-wave: clock_box
 
 [:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/clock_box/blob/main/pdf/clock_box.pdf){ .md-button }
-[:material-layers-triple-outline: Design files](https://github.com/betz-engineering/clock_box/){ .md-button }
+[:material-layers-triple-outline: PCB](https://github.com/betz-engineering/clock_box/){ .md-button }
 [:fontawesome-solid-microchip: Firmware](https://github.com/betz-engineering/clock_box_firmware/){ .md-button }
+[:material-printer-3d: Casing](https://github.com/betz-engineering/clock_box/tree/main/casing){ .md-button }
 
+A handy little RF signal generator for the digital electronics lab. Use it as an external clock-source for FPGAs, as local oscillator for mixers or as a building block for custom transmitters, receivers or various instrumentation projects.
 
-A handy little clock generator for the RF and digital electronics lab. Use it as an external clock-source for FPGAs, as local oscillator for mixers or as a building block for custom transmitters, receivers or various instrumentation projects.
+![The clock_box family](pics/clock_box_family.jpg)
 
   * Based on the [__LMX2572__](https://www.ti.com/product/LMX2572) wideband RF synthesizer chip
   * Frequency range: __12.5 MHz - 6.4 GHz__
@@ -18,7 +20,11 @@ A handy little clock generator for the RF and digital electronics lab. Use it as
 
 # User interface
 
-![clock_box user interface elements](pics/clock_box_ui.jpg)
+=== "Casing ON"
+    ![The clock_box PCB in its 3D printed enclosure](pics/clock_box_ui_closed.jpg)
+
+=== "Casing OFF"
+    ![Opening the enclosure reveals the clock_box PCB](pics/clock_box_ui_open.jpg)
 
 Simple to use: rocker switch selects the digit. Thumb wheel adjusts the digit.
 

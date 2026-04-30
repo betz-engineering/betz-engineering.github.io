@@ -14,8 +14,8 @@ Please get in touch if you're interested in buying any of these designs. I may h
 
     ---
 
-    [![clock_box PCB render](pics/clock_box_photo.jpg)](clock_box.md)
-    A handy clock-generator for the FPGA lab.
+    [![clock_box PCB render](pics/clock_box.jpg)](clock_box.md)
+    A handy RF signal-generator for the FPGA lab.
 
 -   [:material-clock-digital:{ .lg .middle } __ui_board_1u__](ui_board_1u.md)
 
