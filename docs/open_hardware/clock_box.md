@@ -32,11 +32,35 @@ Current frequency and power setting are always shown on the highly readable OLED
 
 All user adjustments are stored in non-volatile memory and automatically restored on power-up.
 
-The USB interface enumerates as a serial port. Frequency and power can be read and written with a SCPI-like interface.
+# Remote control
+The USB interface enumerates as a serial port. Frequency and power can be read and written with a very simple SCPI-like interface.
 
-Each device has an unique serial number, which allows to tell them apart if several are connected to the same PC.
+```bash
+$ pyserial-miniterm /dev/ttyACM0
+--- Miniterm on /dev/ttyACM0  9600,8,N,1 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+--- local echo active ---
+?
+*IDN? = identify
+f / f? = set / get frequency [Hz]
+p / p? = set / get power [0 - 63]
 
-[Open source firmware](https://github.com/betz-engineering/clock_box_firmware/) which can be easily updated through the USB interface (no extra programming adapter needed).
+*IDN?
+Betz Engineering,clock_box,R-_CDABABB13ABCB21939E339E3,34d7ac3
+
+f?
+2437000000 Hz
+
+f 25000000
+OK
+
+f?
+  25000000 Hz
+```
+
+Each device has an unique serial number, which allows to tell them apart if several are connected to the same PC. In the example above,  `CDABABB13ABCB21939E339E3` is the unique ID and `R-` is the PCB revision.
+
+The [firmware](https://github.com/betz-engineering/clock_box_firmware/) is open source and can be easily updated and modified through the USB interface. No additional programming adapter is needed.
 
 # RF output properties
   * Output type: AC-coupled, differential pair (to drive single ended loads, terminate one output with the included 50 Ohm termination)
