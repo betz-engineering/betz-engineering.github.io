@@ -18,7 +18,7 @@ A handy little RF signal generator for the digital electronics lab. Use it as an
   * Frequency stability: __+- 2.5 ppm__ (-30 &deg;C ... 85 &deg;C)
   * Phase Jitter: __240 fs__ (within 100 Hz - 40 MHz, see Phase Noise plots below)
 
-# User interface
+## User interface
 
 === "Casing ON"
     ![The clock_box PCB in its 3D printed enclosure](pics/clock_box_ui_closed.jpg)
@@ -32,7 +32,7 @@ Current frequency and power setting are always shown on the highly readable OLED
 
 All user adjustments are stored in non-volatile memory and automatically restored on power-up.
 
-# Remote control
+## Remote control
 The USB interface enumerates as a serial port. Frequency and power can be read and written with a very simple SCPI-like interface.
 
 ```bash
@@ -62,7 +62,7 @@ Each device has an unique serial number, which allows to tell them apart if seve
 
 The [firmware](https://github.com/betz-engineering/clock_box_firmware/) is open source and can be easily updated and modified through the USB interface. No additional programming adapter is needed.
 
-# RF output properties
+## RF output properties
   * Output type: AC-coupled, differential pair (to drive single ended loads, terminate one output with the included 50 Ohm termination)
   * Output power: 11 dBm (800 mV amplitude) into 50 Ohm at 200 MHz. Adjustable in 64 steps.
   * Output waveform: Square wave. Use external filter to remove harmonics if a sine-wave is needed
