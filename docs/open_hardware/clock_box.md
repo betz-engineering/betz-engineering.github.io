@@ -64,13 +64,13 @@ Each device has an unique serial number, which allows to tell them apart if seve
 ## Buying it
 <span class="shop-ui-button" data-product="clock_box"></span>
 
-You can use the checkout button above (coming soon!) to order this PCB directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
+You can use the checkout button above to order this PCB directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
 
 ✉️✉️✉️
 
 The PCBs will be shipped within a day or two from Switzerland.
 Please make sure to select the correct shipping charge during checkout.
-Within Switzerland is free 😎.
+Within Switzerland it's free 😎.
 
 Here's what's included
 
