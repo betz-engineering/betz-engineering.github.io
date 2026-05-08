@@ -90,16 +90,16 @@ The [firmware](https://github.com/betz-engineering/clock_box_firmware/) is open 
 
 You can use the checkout button above to order this device directly from me. If I'm out of stock, please contact me by mail and I will organize a new manufacturing run (with a lead time of around 3 weeks).
 
-✉️✉️✉️
-
 The product will be shipped within a day or two from Switzerland.
 Please make sure to select the correct shipping charge during checkout.
 Within Switzerland it's free 😎.
 
+![Three clock boxes](pics/clock_box_triple.jpg)
+
 Here's what's included
 
   * Fully assembled, programmed and tested clock_box PCB (`Rev: - `)
-  * 3D printed casing
+  * 3D printed casing (white, black or blue)
   * 1x 50 Ohm SMA termination to terminate the unused output in single-ended mode.
 
 <script src="../inventory.js"></script>
