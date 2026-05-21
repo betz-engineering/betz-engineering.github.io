@@ -3,7 +3,7 @@ icon: material/clock-digital
 ---
 # :material-clock-digital: ui_board_1u
 
-[:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_board_1u/blob/dev/pics/ui_board_1u.pdf){ .md-button }
+[:material-google-spreadsheet: Schematic](https://github.com/betz-engineering/ui_board_1u/blob/main/pics/ui_board_1u.pdf){ .md-button }
 [:material-layers-triple-outline: Design files](https://github.com/betz-engineering/ui_board_1u){ .md-button }
 [:material-file: 3D model](pics/ui_board_1u.step.zip){ .md-button }
 
