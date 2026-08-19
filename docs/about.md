@@ -8,7 +8,7 @@ hide:
 Dr. Michael Betz
 ///
 
-# 🔧 Work experience
+# Work experience
 
 ![image](pics/terapet.png){width=150px align=right}
 
