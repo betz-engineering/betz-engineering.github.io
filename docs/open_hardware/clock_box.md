@@ -102,4 +102,4 @@ Here's what's included
   * 3D printed casing (white, black or blue)
   * 1x 50 Ohm SMA termination to terminate the unused output in single-ended mode.
 
-<script src="../inventory.js"></script>
+<script src="inventory.js"></script>

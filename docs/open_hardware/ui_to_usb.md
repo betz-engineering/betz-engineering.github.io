@@ -43,4 +43,4 @@ Here's what's included
   * 2x nylon standoffs for mounting on ui_board_1u (M2.5, l = 12 mm)
 
 
-<script src="../inventory.js"></script>
+<script src="inventory.js"></script>

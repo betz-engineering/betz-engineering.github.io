@@ -134,4 +134,4 @@ Here's what's included
 
 ![Photo of ui_board_1u with accessories](pics/ui_board_photo.jpg)
 
-<script src="../inventory.js"></script>
+<script src="inventory.js"></script>
