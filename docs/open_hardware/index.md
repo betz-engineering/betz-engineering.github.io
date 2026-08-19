@@ -38,4 +38,11 @@ Please get in touch if you're interested in buying any of these designs. I may h
 
     [![Obsidian PCB render](https://github.com/BerkeleyLab/Obsidian/raw/main/Obsidian/3Drender.JPG)](https://github.com/BerkeleyLab/Obsidian)
     A low-cost FPGA carrier board, compatible with Arduino and PMOD extension boards.
+
+-   [:material-electric-switch:{ .lg .middle } __power_switch__](https://github.com/betz-engineering/power_switch)
+
+    ---
+
+    [![Power Switch PCB](pics/psw.jpg)](https://github.com/betz-engineering/power_switch)
+    A 60 A electronic power switch for battery operated devices.
 </div>
